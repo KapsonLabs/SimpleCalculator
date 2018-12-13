@@ -37,11 +37,28 @@ A simple calculator should perform the following functions
   ![Simple Git Workflow](/img/git-workflow-2.jpg)
   *the image above shows a simple git workflow, follow the image to get a better understanding of the commands explained below*
   
-        - #### git add ####
-        The *git add* command adds a change in the working directory to the staging area. It tells Git that you want to               include updates to a particular file in the next commit. However changes are not actually recorded until you run git           commit.
+  #### git add and git commit####
+  The *git add* command adds a change in the working directory to the staging area. It tells Git that you want to include updates to a particular file in the next commit. However changes are not actually recorded until you run *git commit*.
         
-        In conjunction with these commands, you'll also need git status to view the state of the working directory and the             staging area.
+  In conjunction with these commands, you'll also need git status to view the state of the working directory and the             staging area.
         
-        ##### Examples ######
-
+  ##### Examples ######
+    git add <file name>
+  Stage all changes in <file> for the next commit.
+  
+    git add <directory name>
+  Stage all changes in <directory> for the next commit.
+  
+    git add .
+  Stage all files inside the initalized git repository. This is by far the most used *git add* convention.
+  
+    git reset
+  Unstages all files that were staged with the *git add* command
+  
+    git commit -m 'Commit Comment'
+  Commit a snapshot of the staged files to the local repository.
+  
+    git status
+  Examine the current state of the local repository.
+    
 
