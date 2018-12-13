@@ -24,4 +24,4 @@ A simple calculator should perform the following functions
   
  ## GIT WORKFLOW ESSENTIALS ##
   
-  ![Simple Git Workflow](/img/logo.png)
+  ![Simple Git Workflow](/img/git-workflow-2.jpg)
