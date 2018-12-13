@@ -22,3 +22,5 @@ A simple calculator should perform the following functions
   - Binary Conversions
   - Hexadecimal Conversions
   
+ ## GIT WORKFLOW ESSENTIALS ##
+  
