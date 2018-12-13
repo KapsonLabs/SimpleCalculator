@@ -24,4 +24,14 @@ A simple calculator should perform the following functions
   
  ## GIT WORKFLOW ESSENTIALS ##
   
+  #### 1. Common Git Commands ####
+  
+  When working in Git, or other version control systems, the concept of "saving" is a more nuanced process than saving in a     word processor or other traditional file editing applications. The traditional software expression of "saving" is synonymous   with the Git term "committing". A commit is the Git equivalent of a "save". Traditional saving should be thought of as a       file system operation that is used to overwrite an existing file or write a new file. Alternatively, Git committing is an     operation that acts upon a collection of files and directories.
+  
+  The commands: *git add*, *git status*, and *git commit* are all used in combination to save a snapshot of a Git project's     current state.
+  
+  Git has an additional saving mechanism called 'the stash'. The stash is an **temporary** storage area for changes that are     not ready to be committed. The stash operates on the working directory.
+  
+  *git add*, *git commit* *git stash* *git diff*
+  
   ![Simple Git Workflow](/img/git-workflow-2.jpg)
